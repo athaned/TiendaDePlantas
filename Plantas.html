@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda De Plantas</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<body>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+      body {
+          background-color: #CDE8E5;
+      }
+      .custom-font {
+          font-family: "Quicksand", sans-serif;
+      }
+      .underline {
+          text-decoration: underline;
+      }
+  </style>
+
+<!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img-logo/planta.png" alt="logotienda" width="30" height="24" class="d-inline-block align-text-top">GreenPlace
+            </a>          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Tienda
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="Plantas.html">Plantas</a></li>
+                    <li><a class="dropdown-item" href="Maseteros.html">Maseteros</a></li>
+                    <li><a class="dropdown-item" href="Tierra.html">Tierra</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<!-- CARD -->
+<section id="packeges" class="pt-md-5">
+  <h2 class="text-center my-5 custom-font underline">Plantas</h2>
+      <div class="container">
+          <div class="row">
+              <div class="col-4">
+                  <div class="card">
+                          <img src="img-plantas/planta1.jpeg" class="card-img-top" alt="primerplanta">
+                          <div class="card-body">
+                          <h5 class="card-title">Planta artificial Monstera</h5>
+                          <p class="card-text">
+                            <li>Especificaciones principales</li>
+                            <li>Marca: Just Home Collection</li>
+                            <li>Ancho: 67 cm</li>
+                            <li>Alto: 70 cm</li>
+                            <li>Material: Poliéster y plástico</li>
+                            <li>Color: Verde</li>
+                            <h5>Valor: $26.990</h5>
+                              </p>
+                              <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                  Agregar
+                                </button>
+                          </div>
+                  </div>
+              </div>
+              <div class="col-4">
+                  <div class="card">
+                          <img src="img-plantas/planta2.jpeg" class="card-img-top" alt="segundaplanta">
+                          <div class="card-body">
+                          <h5 class="card-title">Corona del inca</h5>
+                          <p class="card-text">
+                              <li>Especificaciones principales</li>
+                              <li>Marca: Las Bandurrias</li>
+                              <li>Ancho: 49 cm</li>
+                              <li>Alto: 49 cm</li>
+                              <li>Largo: 49 cm</li>
+                              <li>Diámetro: 49 cm</li>
+                              <h5>Valor: $129.990</h5>
+                              </p>
+                              <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                  Agregar
+                                </button>
+                          </div>
+                      </div>
+              </div>
+              <div class="col-4">
+                  <div class="card">
+                      <img src="img-plantas/planta3.jpeg" class="card-img-top" alt="terceraplanta">
+                      <div class="card-body">
+                      <h5 class="card-title">Planta artificial Gomero rosado</h5>
+                      <p class="card-text">
+                          <li>Especificaciones principales</li>
+                          <li>Marca: Just Home Collection</li>
+                          <li>Alto: 43 cm</li>
+                          <li>Material: Poliéster</li>
+                          <li>Color: Rosado</li>
+                          <li>Tipo de planta : Arreglo planta artificial</li>
+                          <h5>Valor: $6.990</h5>
+                      </p>
+                      <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                          Agregar
+                        </button>
+                      </div>
+                  </div>
+              </div>
+          </div>    
+      </div>
+  <h2 class="text-center my-5"></h2>
+      <div class="container">
+          <div class="row">
+              <div class="col-4">
+                  <div class="card">
+                          <img src="img-plantas/planta4.jpeg" class="card-img-top" alt="cuartaplanta">
+                          <div class="card-body">
+                          <h5 class="card-title">Planta artificial Eucaliptus</h5>
+                          <p class="card-text">
+                              <li>Especificaciones principales</li>
+                              <li>Marca: Just Home Collection</li>
+                              <li>Alto: 59 cm</li>
+                              <li>Color: Verde</li>
+                              <li>Tipo de planta: Arreglo planta artificial</li>
+                              <li>Espacio recomendado: Terrazas-Exterior</li>
+                              <h5>Valor: $ 15.990</h5>
+                              </p>
+                              <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                  Agregar
+                                </button>
+                          </div>
+                  </div>
+              </div>
+              <div class="col-4">
+                  <div class="card">
+                          <img src="img-plantas/planta5.jpeg" class="card-img-top" alt="quintaplanta">
+                          <div class="card-body">
+                          <h5 class="card-title">Schefflera </h5>
+                          <p class="card-text">
+                              <li>Especificaciones principales</li>
+                              <li>Marca: Viveros Hijuelas</li>
+                              <li>Dimensiones del contenedor: 17 cm</li>
+                              <li>Distancia de plantación: 30 cm</li>
+                              <li>Floración/cosecha: Primavera;Verano</li>
+                              <li>Uso plantas: Jardineras;Jardín;Macetero</li>
+                              <h5>Valor: $6.990</h5>
+                              </p>
+                              <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                                  Agregar
+                                </button>
+                          </div>
+                      </div>
+              </div>
+              <div class="col-4">
+                  <div class="card">
+                      <img src="img-plantas/planta6.jpeg" class="card-img-top" alt="sextaplanta">
+                      <div class="card-body">
+                      <h5 class="card-title">Clavelina</h5>
+                      <p class="card-text">
+                          <li>Especificaciones principales</li>
+                          <li>Marca: Flores De Mi Tierra</li>
+                          <li>Dimensiones del contenedor: 10 cm</li>
+                          <li>Distancia de plantación: 20 cm</li>
+                          <li>Ubicación planta: Exterior</li>
+                          <li>Tipo de planta: Planta anual</li>
+                          <h5>Valor: $16.990</h5>
+                      </p>
+                      <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                          Agregar
+                        </button>
+                      </div>
+                  </div>
+              </div>
+          </div>    
+      </div>
+</section>
+
+<!-- MODAL -->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Planta artificial Monstera</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Se ah agregado "Planta artificial Monstera" al carro de compras.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Confirmar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Corona del inca</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Se ah agregado "Corona del inca" al carro de compras.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Confirmar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Planta artificial Gomero rosado/h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Se ah agregado "Planta artificial Gomero rosado" al carro de compras.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Confirmar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Planta artificial Eucaliptus</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Se ah agregado "Planta artificial Eucaliptus" al carro de compras.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Confirmar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel5" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Schefflera</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Se ah agregado "Schefflera" al carro de compras.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Confirmar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel6" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Clavelina</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Se ah agregado "Clavelina" al carro de compras.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Confirmar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h2 class="text-center my-5"></h2>
+<!-- Footer -->
+
+<div class="container-fluid">
+
+  <div class="row p-5 pb-1 bg-dark text-light">
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <p class="h3">GreenPlace</p>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <p class="h5 mb-3">Compañia</p>
+        <div class="mb-2">
+          <a class="text-secondary text-decoration-none" href="">Sobre Nosotros</a>
+        </div>
+        <div class="mb-2">
+          <a class="text-secondary text-decoration-none" href="contacto.html">Contacto</a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <p class="h5 mb-3">Servicios</p>
+        <div class="mb-2">
+          <a class="text-secondary text-decoration-none" href="">Preguntas Frecuentes</a>
+        </div>
+        <div class="mb-2">
+          <a class="text-secondary text-decoration-none" href="">Tiendas</a>
+        </div>
+        <div class="mb-2">
+          <a class="text-secondary text-decoration-none" href="">Seguimiento de tu Pedido RM</a>
+        </div>
+        <div class="mb-2">
+          <a class="text-secondary text-decoration-none" href="">Nuestros Consejos</a>
+        </div>
+        <div class="mb-2">
+          <a class="text-secondary text-decoration-none" href="">Noticias</a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <p class="h5 mb-3">Legales</p>
+        <div class="mb-2">
+          <a class="text-secondary text-decoration-none" href="">Términos y Condiciones Online</a>
+        </div>
+        <div class="mb-2">
+          <a class="text-secondary text-decoration-none" href="">Políticas de Despacho Online</a>
+        </div>
+        <div class="mb-2">
+          <a class="text-secondary text-decoration-none" href="">Políticas de Reembolso Online</a>
+        </div>
+      </div>
+
+      <div class="col-xs-12 pt-5">
+        <p class="text-white text-center"> Copyright - All rights reserved © 2024</p>
+      </div>
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

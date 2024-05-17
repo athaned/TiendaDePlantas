@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda De Plantas</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+          body {
+              background-color: #CDE8E5;
+          }
+          .custom-font {
+              font-family: "Quicksand", sans-serif;
+          }
+          .underline {
+              text-decoration: underline;
+          }
+      </style>
+
+<!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img-logo/planta.png" alt="logotienda" width="30" height="24" class="d-inline-block align-text-top">GreenPlace
+            </a>          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Tienda
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="Plantas.html">Plantas</a></li>
+                    <li><a class="dropdown-item" href="Maseteros.html">Maseteros</a></li>
+                    <li><a class="dropdown-item" href="Tierra.html">Tierra</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<!-- CARROUSEL -->
+<div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img-plantas/plantas1.webp" class="d-block w-100" alt="maseteros1" style="height: 550px; object-fit: contain;">
+        </div>
+        <div class="carousel-item">
+            <img src="img-maceteros/masetero2.jpg" class="d-block w-100" alt="maseteros2" style="height: 550px; object-fit: contain;">
+        </div>
+        <div class="carousel-item">
+            <img src="img-tierra/tierra4.jpeg" class="d-block w-100" alt="maseteros3" style="height: 550px; object-fit: contain;">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Antes</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Despues</span>
+    </button>
+</div>
+<!-- CARD -->
+<section id="packeges" class="pt-md-5">
+    <h2 class="text-center my-5 custom-font underline">POPULARES</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card">
+                            <img src="img-maceteros/maceta.jpeg" class="card-img-top" alt="primermaceta">
+                            <div class="card-body">
+                            <h5 class="card-title">Macetero Look barril</h5>
+                            <p class="card-text">
+                                <li>Especificaciones principales</li>
+                                <li>Marca: Just Home Collection</li>
+                                <li>Ancho: 44.5 cm</li>
+                                <li>Alto: 26 cm</li>
+                                <li>Largo: 44.5 cm</li>
+                                <h5>Valor: $9.990</h5>
+                                </p>
+                            <a href="Maseteros.html" class="btn btn-primary">Ir</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                            <img src="img-plantas/planta1.jpeg" class="card-img-top" alt="segundamaceta">
+                            <div class="card-body">
+                            <h5 class="card-title">Planta artificial Monstera 70 cm</h5>
+                            <p class="card-text">
+                                <li>Especificaciones principales</li>
+                                <li>Marca: Just Home Collection</li>
+                                <li>Ancho: 67 cm</li>
+                                <li>Alto: 70 cm</li>
+                                <li>Material: Poliéster y plástico</li>
+                                <h5>Valor: $25.000</h5>
+                                </p>
+                            <a href="Plantas.html" class="btn btn-primary">Ir</a>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img src="img-tierra/tierrahoja.jpeg" class="card-img-top" alt="terceramaseta">
+                        <div class="card-body">
+                        <h5 class="card-title">Tierra para macetero 15 litros saco</h5>
+                        <p class="card-text">
+                            <li>Marca: Armony</li>
+                            <li>Garantía: 6 meses</li>
+                            <li>Contenido: 15 l</li>
+                            <li>Presentación: Saco</li>
+                            <li>ID_Cat: 10003236</li>
+                            <h5>Valor: $3.990</h5>
+                        </p>
+                        <a href="Tierra.html" class="btn btn-primary">Ir</a>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+</section>
+
+<h2 class="text-center my-5"></h2>
+<!-- Footer -->
+
+<div class="container-fluid">
+
+    <div class="row p-5 pb-1 bg-dark text-light">
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <p class="h3">GreenPlace</p>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <p class="h5 mb-3">Compañia</p>
+          <div class="mb-2">
+            <a class="text-secondary text-decoration-none" href="">Sobre Nosotros</a>
+          </div>
+          <div class="mb-2">
+            <a class="text-secondary text-decoration-none" href="contacto.html">Contacto</a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <p class="h5 mb-3">Servicios</p>
+          <div class="mb-2">
+            <a class="text-secondary text-decoration-none" href="">Preguntas Frecuentes</a>
+          </div>
+          <div class="mb-2">
+            <a class="text-secondary text-decoration-none" href="">Tiendas</a>
+          </div>
+          <div class="mb-2">
+            <a class="text-secondary text-decoration-none" href="">Seguimiento de tu Pedido RM</a>
+          </div>
+          <div class="mb-2">
+            <a class="text-secondary text-decoration-none" href="">Nuestros Consejos</a>
+          </div>
+          <div class="mb-2">
+            <a class="text-secondary text-decoration-none" href="">Noticias</a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <p class="h5 mb-3">Legales</p>
+          <div class="mb-2">
+            <a class="text-secondary text-decoration-none" href="">Términos y Condiciones Online</a>
+          </div>
+          <div class="mb-2">
+            <a class="text-secondary text-decoration-none" href="">Políticas de Despacho Online</a>
+          </div>
+          <div class="mb-2">
+            <a class="text-secondary text-decoration-none" href="">Políticas de Reembolso Online</a>
+          </div>
+        </div>
+  
+        <div class="col-xs-12 pt-5">
+          <p class="text-white text-center"> Copyright - All rights reserved © 2024</p>
+        </div>
+  
+    </div>
+  </div>
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
